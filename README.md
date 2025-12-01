@@ -1,28 +1,61 @@
-# Melting Point Data Analysis App
+📘 Melting Point Data Analysis App
 
-A simple Streamlit application for searching, displaying, and analyzing melting point data for various chemical compounds.
+A simple and interactive Streamlit web application designed to search, display, and analyze melting point data for various chemical compounds. This tool is helpful for chemistry students, researchers, and anyone working with chemical datasets.
 
----
+ Features
 
-## 📌 Features
-- View melting point data from a CSV file  
-- Search for compounds  
-- Add new entries dynamically  
-- Automatically display updated table  
-- Easy and clean Streamlit UI  
+ . Search compounds by name
 
----
+ . Display melting point data in a clean table
 
-## 📁 Project Structure
+ . Add new compound entries dynamically
+
+ . Real-time updates using Streamlit
+
+ . Data stored in an easy-to-edit CSV file
+
+ . Useful for learning and academic projects
+
+📁 Project Structure
+
 melting-point-app/
+
 │
-├── app.py # Main Streamlit app
-├── requirements.txt # App dependencies
-├── README.md # Documentation
-├── .gitignore
+├── app.py                # Main application file
+
+├── requirements.txt      # Required Python libraries
+
+├── README.md             # Project documentation
+
+├── .gitignore            # Files ignored by Git
+
 │
 ├── data/
-│ └── melting_points.csv
+
+│   └── melting_points.csv   # Dataset of compound names & melting points
+
 │
 └── images/
-└── screenshot.png
+
+    └── screenshot.png    # App screenshot 
+
+🚀 Getting Started
+
+Run the project
+
+1. Github Repository
+ https://github.com/Gayathri Sama/melting-point-app.git
+cd melting-point-app
+
+2. Install Dependencies
+
+pip install -r requirements.txt
+
+3. Run the Application 
+streamlit run app.py
+
+
+The dashboard will open automatically  at:
+
+http://localhost:8501
+
